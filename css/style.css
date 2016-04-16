@@ -1,7 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 
+#container{
+  max-width: 80%;
+  margin: 0 auto;
+}
 
-body{
-  font-family:
+header {
+  background: black;
+  border-bottom: yellow 5px solid;
+  padding-left: 40px;
+  padding-top: 10px;
 }
 
 h1{
@@ -10,10 +20,34 @@ h1{
   font-weight: bold;
 }
 
-li .bold{
-  font-family: 'Oswald';
-  font-weight: bold;
+li{
+  color: white;
+  display: inline;
+  margin-left: auto;
+  font-size: 15px;
+  padding-left: 50px;
+
 }
+
+li + li {
+  padding-left: 10px;
+}
+
+nav{
+  /*position: absolute;
+  right: 50;*/
+}
+
+#slogan{
+  width: 100%;
+  height: 70px;
+  background: #c6c6c6;
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+  padding: 10px 20px 50px 20px;
+}
+
 
 .nav {
   font-family: 'Lato';
@@ -21,21 +55,87 @@ li .bold{
 }
 
 
-.images{
-  background: url(../images/coworking.jpg) no-repeat center;
+#image{
+  background: url(../images/coworking.jpg) no-repeat top left;
   background-size: cover;
+  height: 400px;
+  width: 800px;
+  padding: 10px 50px;
+}
+
+#Meet{
+  background-color: rgba(220, 220, 220, 0.8);
+  position: relative;
+  left: 400px;
+  border: 1px solid black;
+  display: block;
+  width: 250px;
+  height: 300px;
+  padding: 5px 30px;
+}
+
+#Meet p{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+#profile{
+  background-color: yellow;
+  font-weight: 800;
+  padding: 15px;
+  font-size: 12px;
+  width: 200px;
+  height: 80px;
+  border: 1px solid black;
 }
 
 .Split{
+  display: inline-block;
+  border: 1px solid black;
+  width: 250px;
+  height: 300px;
+  padding: 5px;
 
+}
+
+.Split .p{
+  font-family: 'Lato';
+}
+
+a{
+  border-radius: 5px;
+  text-decoration: none;
+  background: grey;
+  color: black;
+  padding: 5px;
+  font-style: bold;
+}
+
+footer{
+  background: black;
+  color: white;
+  width: 100%;
+  height: 40px;
+  display: block;
+  padding: 10px 20px;
+  font-size: 13px;
 }
 
 /*font styles*/
+.bold{
+  font-weight: bold;
+}
+
 .strikethrough{
-  font-style: strikethrough;
+  text-decoration: line-through;
+  color: grey;
 }
 
 .underline {
-  font-style: underline;
-  color: #f8ff00;
+  border-bottom:3px solid #f8ff00;
+  /*color: #f8ff00;*/
+}
+
+h2{
+  font-family: Georgia;
 }
