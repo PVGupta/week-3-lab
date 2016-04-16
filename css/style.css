@@ -1,0 +1,41 @@
+
+
+body{
+  font-family:
+}
+
+h1{
+  color: #f8ff00;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+li .bold{
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+.nav {
+  font-family: 'Lato';
+
+}
+
+
+.images{
+  background: url(../images/coworking.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.Split{
+
+}
+
+/*font styles*/
+.strikethrough{
+  font-style: strikethrough;
+}
+
+.underline {
+  font-style: underline;
+  color: #f8ff00;
+}
